@@ -1,0 +1,311 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+*{
+    box-sizing: border-box;
+}
+[class*="col-"]{
+    padding: 15px; float: left; width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For dekstop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    /* position: fixed; */
+    background-color: white;
+    border-block-end-style: solid;
+    border: rgb(187, 14, 14) ;
+    border-block-end-width: 5px;
+    box-shadow: -1px -7px 20px 8px rgb(126, 120, 120);
+}
+nav ul{
+    position: relative;
+    top: 20px;
+    margin: 0;
+    float: right;
+    right: 10%;
+}
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+nav img{
+    position: absolute;
+    width: 140px;
+    height: auto;
+    left: 10%;
+    top: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: lightgreen;
+    border-top: 5px solid lightgreen;
+    padding: 15px 0px;
+    transition-duration: 0.3s;
+}
+.bgimage{
+    background-image: url("atas.jpeg");
+    height: 700px;
+    background-size: cover;
+}
+div.konten{
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px;
+    top: 150px;
+    left: 450px;
+    position: absolute;
+}
+div.konten img{
+    width: 150px;
+    height: auto;
+}
+.teks{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+    font-style: oblique;
+}
+.bq{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+div.gelap{
+width: 100%;
+height: 700px;
+background: #000;
+opacity: 0.7;
+position: absolute;
+margin-top: 0px;
+}
+div.konten div.panah{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid white;
+    display: flex;
+    position: absolute;
+    float: left;
+    left: 45%;
+    top: 400px;
+}
+div.konten div.panah i{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+}
+div.content{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    padding-top: 20px;
+    float: left;
+}
+div.content .gelap{
+    width:100%;
+    height: auto;
+    background: linear-gradient(black, black, transparent); 
+}
+div.content .left{
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    position: absolute;
+    text-align: right;
+    padding-right: 20px;
+    float: left;
+}
+div.content .left h1{
+    text-align: right;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    border-right: 5px lightgreen solid;
+    padding-right: 15px;
+}
+div.content .left h3{
+    text-align: right;
+    color: rgb(179, 177, 177);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+div.content .right{
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    position: absolute;
+    padding-right: 20px;
+    float: left;
+}
+div.content .right img.isi{
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-top: 7%;
+    margin-left: 120%;
+    position: absolute;
+}
+.container {
+    width: 100%;
+    height: 800px;
+    background: url("kuliner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    float: left;
+}
+.container .gelap3{
+    height: 800px;
+    background-size: cover;
+    background: black;
+    opacity: 0.7;
+}
+.container .judul1{
+    width: 100%;
+    height: auto;
+    margin-top: -65%;
+    position: absolute;
+}
+.container .judul1 h1{
+    font-size: 40px;
+    font-family: Brush Script MT;
+    text-align: center;
+    color: white;
+}
+.container h3{
+    width: 90%;
+    margin-left: 400px;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+.container .rawon{
+    width: 20%;
+    position: absolute;
+    background: gray;
+    height: 670px;
+    margin-left: 10%;
+    margin-top: -57%;
+}
+.container .rawon img{
+    width: 243px;
+    height: auto;
+}
+.container .rawon header{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    border-bottom: white solid 2px;
+}
+.container .rawon p{
+    font-size: 18px;
+    text-align: center;
+}
+.container .bakso{
+    width: 20%;
+    position: absolute;
+    background: gray;
+    height: 670px;
+    margin-left: 40%;
+    margin-top: -57%;
+}
+.container .bakso img{
+    width: 243px;
+    height: auto;
+}
+.container .bakso header{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    border-bottom: white solid 2px;
+}
+.container .bakso p{
+    font-size: 18px;
+    text-align: center;
+}
+.container .rujak{
+    width: 20%;
+    position: absolute;
+    background: gray;
+    height: 670px;
+    margin-left: 70%;
+    margin-top: -57%;
+}
+.container .rujak img{
+    width: 200px;
+    height: auto;
+}
+.container .rujak header{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    border-bottom: white solid 2px;
+}
+.container .rujak p{
+    font-size: 18px;
+    text-align: center;
+}
+.box {
+    text-align: center;
+    font-family: sans-serif;
+}
+.kotaprob .judul2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.kotaprob .judul2 h1{
+    font-size: 40px;
+    font-family: Brush Script MT;
+    text-align: center;
+}
+.kotaprob img{
+    margin-left: 20%;
+}
